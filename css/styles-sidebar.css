@@ -1,0 +1,87 @@
+/** sidebar **/
+.rnd-replace-sidebar-honor-sidebar {
+	color: #000000;
+	font-family: 'HonorSans', sans-serif;
+	position: relative;
+	overflow: hidden;
+	font-size: 16px;
+	background: white;
+	border-radius: 10px;
+	padding: 17px;
+}
+.rnd-replace-sidebar-honor-sidebar .rnd-replace-side-box {
+	align-items: flex-start;
+}
+.promo-honor-sidebar-ad {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 8px;
+	background-color: transparent;
+	color: #000;
+}
+.promo-honor-sidebar-ad .promo-honor-sidebar-ad-text {
+	display: inline-block;
+}
+.promo-honor-sidebar-ad .promo-honor-sidebar-ad-url {
+	display: none;
+}
+.promo-honor-sidebar-ad:hover .promo-honor-sidebar-ad-url {
+	display: inline-block;
+}
+.promo-honor-sidebar-ad:hover .promo-honor-sidebar-ad-text {
+	display: none;
+}
+.promo-honor-sidebar {
+	border-radius: 8px;
+	padding: 30px 16px 16px 16px;
+}
+.promo-honor-sidebar-title {
+	margin-bottom: 10px;
+	text-align: right;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000;
+}
+.promo-honor-sidebar-image {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+.promo-honor-sidebar-description {
+	list-style: disc;
+	margin-top: 8px;
+	padding-left: 22px;
+}
+.promo-honor-sidebar-description li {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.promo-honor-sidebar-button {
+	display: block;
+	background-color: black;
+	height: 34px;
+	line-height: 34px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin-top: 18px;
+	transition: background-color .3s;
+}
+.promo-honor-sidebar-button:hover {
+	background-color: #005880;
+}
+
+.promo-honor-sidebar-full {
+	width: 100%;
+	display: block;
+	height: auto;
+	border-radius: 10px;
+}
